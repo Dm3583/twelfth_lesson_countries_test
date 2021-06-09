@@ -1,0 +1,33 @@
+
+.center {
+    text-align: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list{
+    padding: 0;
+    list-style-position: inside;
+}
+.list > b {
+    margin-bottom: 5px;
+    display: block;
+}
+
+
+.container{
+   width: 50%
+}
+
+
+.flag {
+    display: block;
+    width: 100%;;
+}
+
