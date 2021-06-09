@@ -6,14 +6,14 @@
   "homepage": "https://Dm3583.github.io/twelfth_lesson_countries_test",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /twelfth_lesson_countries/"
+    "build": "parcel build src/*.html --public-url /twelfth_lesson_countries_test/",
   },
   "repository": {
     "type": "git",
     "url": "git+https:/Dm3583.github.io/twelfth_lesson_countries_test.git"
   },
   "keywords": [],
-  "author": "Andrey Arzhanykh <anarzhanykh@gmail.com>",
+  "author": "Pankov <pankovdm@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://Dm3583.github.io/twelfth_lesson_countries_test/issues"
@@ -28,6 +28,7 @@
     "sass": "^1.32.8"
   },
   "dependencies": {
+    "gh-pages": "^3.2.0",
     "lodash.debounce": "^4.0.8"
   }
 }
