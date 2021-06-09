@@ -6,7 +6,9 @@
   "homepage": "https://Dm3583.github.io/twelfth_lesson_countries_test",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /twelfth_lesson_countries_test/ --no-content-hash"
+    "build": "parcel build src/*.html --public-url /twelfth_lesson_countries_test --no-content-hash",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -25,7 +27,8 @@
     "parcel-plugin-nuke-dist": "^1.0.1",
     "pnotify": "^5.2.0",
     "posthtml-include": "^1.6.2",
-    "sass": "^1.32.8"
+    "sass": "^1.32.8",
+    "shx": "^0.3.2"
   },
   "dependencies": {
     "gh-pages": "^3.2.0",
