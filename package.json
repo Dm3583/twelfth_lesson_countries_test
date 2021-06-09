@@ -6,7 +6,7 @@
   "homepage": "https://Dm3583.github.io/twelfth_lesson_countries_test",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /twelfth_lesson_countries_test/",
+    "build": "parcel build src/*.html --public-url /twelfth_lesson_countries_test/"
   },
   "repository": {
     "type": "git",
